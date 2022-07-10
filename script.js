@@ -32,7 +32,7 @@ setInterval(()=>{
 
 function birthday(){
     const totalImg = 26;
-    const getImg = Math.floor(Math.random() * totalImg) + 1;
+    const getImg = 100 + Math.floor(Math.random() * totalImg) + 1;
     const container = document.querySelector('.container');
     var size = 200 + Math.random() * 60;
     if(screen.width <= 768){
@@ -43,7 +43,7 @@ function birthday(){
     createElement.style.width = size + "px";
     createElement.style.height = size +"px";
     createElement.style.left = Math.random() * innerWidth + "px";
-    createElement.style.backgroundImage = `url(./img/${getImg}.jpg)`;
+    createElement.style.backgroundImage = `url(./img/${getImg}.jpeg)`;
     container.appendChild(createElement);
 
     // videoPlay();
