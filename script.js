@@ -31,7 +31,7 @@ setInterval(()=>{
 
 
 function birthday(){
-    const totalImg = 11;
+    const totalImg = 26;
     const getImg = 100 + Math.floor(Math.random() * totalImg) + 1;
     const container = document.querySelector('.container');
     var size = 200 + Math.random() * 60;
