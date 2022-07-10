@@ -1,7 +1,7 @@
 const counter = document.getElementById('counter');
 const vid = document.querySelector('.vid');
-const birthdayDate = 12;
-const birthdayMonth = 4;
+const birthdayDate = 11;
+const birthdayMonth = 7;
 
 setInterval(()=>{
     let time = new Date();
