@@ -33,6 +33,7 @@ setInterval(()=>{
 function birthday(){
     const totalImg = 26;
     const getImg = 100 + Math.floor(Math.random() * totalImg) + 1;
+    console.log(getImg);
     const container = document.querySelector('.container');
     var size = 200 + Math.random() * 60;
     if(screen.width <= 768){
